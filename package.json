@@ -1,0 +1,15 @@
+{
+  "name": "saber-portfolio-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "nprogress": "^0.2.0",
+    "prismjs": "^1.17.1",
+    "saber": "^0.9.0",
+    "saber-plugin-prismjs": "^0.2.3",
+    "saber-plugin-query-posts": "^0.4.2",
+    "tailwindcss": "^1.1.2",
+    "vue-scrollto": "^2.17.1"
+  }
+}

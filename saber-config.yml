@@ -1,0 +1,10 @@
+siteConfig:
+  title: Saber Portfolio Starter
+
+permalinks:
+  post: /posts/:slug
+  page: /:slug
+
+plugins:
+  - resolve: saber-plugin-query-posts
+  - resolve: saber-plugin-prismjs
