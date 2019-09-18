@@ -29,5 +29,5 @@ I understand that I'm not following the [recommended way to create themes in Sab
 ## Notes
 
  - Based on the [Gridsome Portfolio Starter](https://github.com/drehimself/gridsome-portfolio-starter).
- -
+ - WIP: More features coming soon.
 
