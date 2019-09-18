@@ -1,7 +1,7 @@
 <template>
   <div class="content-wrapper bg-background-primary font-sans text-copy-primary leading-normal flex flex-col min-h-screen" :class="theme">
     <header class="border-t-14 border-green-700">
-      <nav class="container mx-auto flex flex-wrap justify-between items-center py-8">
+      <nav class="container mx-auto flex flex-wrap justify-between items-center py-8 m-0">
         <div>
           <saber-link to="/" class="flex items-center" >
             <svg width="32" height="32" viewBox="0 0 402 402"><g fill="none" fill-rule="evenodd" transform="translate(1 1)"><circle cx="200" cy="200" r="200.5" fill="#00838F" stroke="#00838F"/><path fill="#FBB526" d="M152.842 232.24L203.5 228l9.524 22-32.693 32.435-27.489 38.643L156.47 368c-26.887-6.566-44.792-13.037-53.717-19.413C93.83 342.21 84.245 333.04 74 321.077l48-57.164h21l9.842-31.672z"/><path fill="#FFF" d="M143 131h120v14H143zM171 145h12v83h-12zM224 145h12v105h-12zM196 185h12v40h-12zM187 91h33v40h-33z"/><circle cx="203" cy="78" r="18" stroke="#FFF" stroke-width="14"/><circle cx="200" cy="200" r="179" stroke="#FFF" stroke-width="14"/><path stroke="#FFF" stroke-width="14" d="M70 325.805L119.368 260h28.5"/><path stroke="#FFF" stroke-width="14" d="M122 314.069l22.748-19.731 5.5-57.903 55-10.435L220 250"/><path stroke="#FFF" stroke-width="14" d="M177 286.058l19-11.648 9.188-24.41 45.191 4.615 17.269 22.822"/><path stroke="#FFF" stroke-width="14" d="M242.721 274.41h36.897L330.993 324M200 331.156L221.037 311 240 320.931l40.63 5.51"/></g></svg>
@@ -104,7 +104,11 @@ export default {
     return {
       title: pageTitle ?
         `${pageTitle} - ${this.$siteConfig.title}` :
-        this.$siteConfig.title
+        this.$siteConfig.title,
+      bodyAttrs: {
+        class:
+          'm-0'
+      }
     }
   },
   mounted() {

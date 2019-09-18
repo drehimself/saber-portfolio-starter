@@ -46,7 +46,3 @@ export default {
   }
 }
 </script>
-
-<style>
-  @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700&display=swap');
-</style>

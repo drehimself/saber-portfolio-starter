@@ -1,6 +1,6 @@
-// import 'prismjs/themes/prism.css'
 import Vue from 'vue'
 import VueScrollTo from 'vue-scrollto'
+import 'typeface-nunito-sans/index.css'
 import './assets/css/main.css'
 import 'prismjs/themes/prism-tomorrow.css'
 
