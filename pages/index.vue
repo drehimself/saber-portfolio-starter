@@ -11,7 +11,7 @@
     </div> <!-- end hero -->
 
     <div class="container-inner mx-auto">
-      <p class="text-lg sm:text-xl">This <a href="https://github.com/drehimself/saber-portfolio-starter">saber theme</a> was forked from the Gridsome version that can be found on this <a href="https://github.com/drehimself/gridsome-portfolio-starter">GitHub Repo</a>. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, tempora vel natus possimus animi fugit neque atque explicabo officia numquam laboriosam quis maiores repudiandae illo doloremque quidem cupiditate nesciunt totam ut libero iure. Mollitia quos animi, vel laboriosam culpa unde in.</p>
+      <p class="text-lg sm:text-xl">This <a href="https://github.com/drehimself/saber-portfolio-starter">Saber theme</a> was forked from the Gridsome version that can be found on this <a href="https://github.com/drehimself/gridsome-portfolio-starter">GitHub Repo</a>. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, tempora vel natus possimus animi fugit neque atque explicabo officia numquam laboriosam quis maiores repudiandae illo doloremque quidem cupiditate nesciunt totam ut libero iure. Mollitia quos animi, vel laboriosam culpa unde in.</p>
 
       <div class="flex justify-between items-center py-6">
         <div class="w-full sm:w-1/2 px-8 py-8 sm:py-0">
