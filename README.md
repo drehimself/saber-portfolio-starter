@@ -2,6 +2,8 @@
 
 A simple portfolio starter theme for Saber. Based on the [Gridsome Portfolio Starter](https://github.com/drehimself/gridsome-portfolio-starter)
 
+![saber_screenshot](https://user-images.githubusercontent.com/4316355/65113403-0fdb9b80-d9b1-11e9-9bda-f5737db13a69.jpg)
+
 ## Demo URL
 
 [https://saber-portfolio-starter.netlify.com](https://saber-portfolio-starter.netlify.com)
