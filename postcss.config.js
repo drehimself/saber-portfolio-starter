@@ -14,6 +14,9 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
     // etc.
   ],
 
+  // whitelist for prismjs
+  whitelistPatternsChildren: [/^token/, /^pre/, /^code/],
+
   // Include any special characters you're using in this regular expression
   defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
 })

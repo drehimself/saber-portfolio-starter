@@ -736,7 +736,6 @@ export default {
 
   .markdown-body .highlight pre,
   .markdown-body pre {
-    background-color: #f6f8fa;
     border-radius: 3px;
     font-size: 75%;
     line-height: 1.5;
